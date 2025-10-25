@@ -162,8 +162,8 @@
 <body>
 <main class="game">
   <h1>Tic Tac Toe</h1>
-  <div id="scoreboard">Jamie Lannister Wins: 0 | Tyrion Lannister Wins: 0</div>
-  <div id="status">Jamie Lannister's turn</div>
+  <div id="scoreboard">Player 1 Wins: 0 | Player 2 Wins: 0</div>
+  <div id="status">Player 1's turn</div>
 
   <div id="board" class="board">
     <div class="cell" data-index="0"></div>
@@ -182,8 +182,8 @@
   <div class="popup" id="gameOverPopup">
     <h2>Game Over</h2>
     <p id="winnerText">Winner: </p>
-    <p id="playerXWins">Jamie Lannister Wins: 0</p>
-    <p id="playerOWins">Tyrion Lannister Wins: 0</p>
+    <p id="playerXWins">Player 1 Wins: 0</p>
+    <p id="playerOWins">Player 2 Wins: 0</p>
     <button id="closePopup">Close</button>
   </div>
 </main>
@@ -199,8 +199,8 @@ const playerOWinsText = document.getElementById('playerOWins');
 const winnerText = document.getElementById('winnerText');
 const scoreboard = document.getElementById('scoreboard');
 
-const playerXName = "Jamie Lannister";
-const playerOName = "Tyrion Lannister";
+const playerXName = "Player 1";
+const playerOName = "Player 2";
 
 let currentPlayer = 'X';
 let gameActive = true;
@@ -237,7 +237,7 @@ function handleClick(e){
     showPopup();
   } else {
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-    statusText.textContent = `Player ${currentPlayer === 'X' ? playerXName : playerOName}'s turn`;
+    statusText.textContent = `${currentPlayer === 'X' ? playerXName : playerOName}'s turn`;
   }
 }
 
