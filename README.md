@@ -12,6 +12,14 @@ A visually engaging **Tic Tac Toe** web game built with **HTML, CSS, and JavaScr
 - Live **scoreboard** tracking wins  
 - Restart game functionality  
 
+## Screenshots
+
+| Gameplay | Winning Moment | Another View | Draw Screen |
+|:---------:|:---------------:|:-------------:|:------------:|
+| ![Gameplay](./screenshot1.png) | ![Winning Moment](./screenshot2.png) | ![Another View](./screenshot3.png) | ![Draw Screen](./drawshot.png) |
+
+> Example screenshots from different game states.
+
 ## How to Play
 
 1. Open `index.html` in a browser.  
@@ -29,6 +37,3 @@ A visually engaging **Tic Tac Toe** web game built with **HTML, CSS, and JavaScr
 ## Demo
 
 Just clone the repository and open `index.html` in any modern browser to play.  
-
----
-
