@@ -16,7 +16,7 @@ A visually engaging **Tic Tac Toe** web game built with **HTML, CSS, and JavaScr
 
 | Gameplay | Winning Moment | Another View | Draw Screen |
 |:---------:|:---------------:|:-------------:|:------------:|
-| ![Gameplay](./screenshot1.png) | ![Winning Moment](./screenshot2.png) | ![Another View](./screenshot3.png) | ![Draw Screen](./drawshot.png) |
+| ![App Interface](./screenshot1.png) | ![Gameplay](./screenshot2.png) | ![Winning Moment](./screenshot3.png) | ![Draw Screen](./drawshot.png) |
 
 > Example screenshots from different game states.
 
@@ -37,3 +37,4 @@ A visually engaging **Tic Tac Toe** web game built with **HTML, CSS, and JavaScr
 ## Demo
 
 Just clone the repository and open `index.html` in any modern browser to play.  
+
